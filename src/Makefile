@@ -227,6 +227,9 @@ $(LIB_CUDD):	$(LIB_OBJ_FILES)
 $(LIB_OBJ_FILES):	$(LIB_HDR_FILES)
 
 clean:
+	rm -f -r Debug
+	rm -f -r Release
+	rm -f -r x64	
 	rm -f *.o
 	rm -f *.ilk
 	rm -f *.pdb
