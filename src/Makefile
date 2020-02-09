@@ -228,6 +228,8 @@ $(LIB_OBJ_FILES):	$(LIB_HDR_FILES)
 
 clean:
 	rm -f *.o
+	rm -f *.ilk
+	rm -f *.pdb
 	rm -f libcudd*.a
 	rm -f datasizes.h
 	rm -f $(LIB_DIR)/*.*

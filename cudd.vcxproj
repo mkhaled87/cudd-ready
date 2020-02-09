@@ -35,115 +35,115 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpu_stats.c" />
-    <ClCompile Include="cpu_time.c" />
-    <ClCompile Include="cstringstream.c" />
-    <ClCompile Include="cuddAddAbs.c" />
-    <ClCompile Include="cuddAddApply.c" />
-    <ClCompile Include="cuddAddFind.c" />
-    <ClCompile Include="cuddAddInv.c" />
-    <ClCompile Include="cuddAddIte.c" />
-    <ClCompile Include="cuddAddNeg.c" />
-    <ClCompile Include="cuddAddWalsh.c" />
-    <ClCompile Include="cuddAndAbs.c" />
-    <ClCompile Include="cuddAnneal.c" />
-    <ClCompile Include="cuddApa.c" />
-    <ClCompile Include="cuddAPI.c" />
-    <ClCompile Include="cuddApprox.c" />
-    <ClCompile Include="cuddBddAbs.c" />
-    <ClCompile Include="cuddBddCorr.c" />
-    <ClCompile Include="cuddBddIte.c" />
-    <ClCompile Include="cuddBridge.c" />
-    <ClCompile Include="cuddCache.c" />
-    <ClCompile Include="cuddCheck.c" />
-    <ClCompile Include="cuddClip.c" />
-    <ClCompile Include="cuddCof.c" />
-    <ClCompile Include="cuddCompose.c" />
-    <ClCompile Include="cuddDecomp.c" />
-    <ClCompile Include="cuddEssent.c" />
-    <ClCompile Include="cuddExact.c" />
-    <ClCompile Include="cuddExport.c" />
-    <ClCompile Include="cuddGenCof.c" />
-    <ClCompile Include="cuddGenetic.c" />
-    <ClCompile Include="cuddGroup.c" />
-    <ClCompile Include="cuddHarwell.c" />
-    <ClCompile Include="cuddInit.c" />
-    <ClCompile Include="cuddInteract.c" />
-    <ClCompile Include="cuddLCache.c" />
-    <ClCompile Include="cuddLevelQ.c" />
-    <ClCompile Include="cuddLinear.c" />
-    <ClCompile Include="cuddLiteral.c" />
-    <ClCompile Include="cuddMatMult.c" />
-    <ClCompile Include="cuddObj.cc" />
-    <ClCompile Include="cuddPriority.c" />
-    <ClCompile Include="cuddRead.c" />
-    <ClCompile Include="cuddRef.c" />
-    <ClCompile Include="cuddReorder.c" />
-    <ClCompile Include="cuddSat.c" />
-    <ClCompile Include="cuddSign.c" />
-    <ClCompile Include="cuddSolve.c" />
-    <ClCompile Include="cuddSplit.c" />
-    <ClCompile Include="cuddSubsetHB.c" />
-    <ClCompile Include="cuddSubsetSP.c" />
-    <ClCompile Include="cuddSymbolicSet.cc" />
-    <ClCompile Include="cuddSymmetry.c" />
-    <ClCompile Include="cuddTable.c" />
-    <ClCompile Include="cuddUtil.c" />
-    <ClCompile Include="cuddWindow.c" />
-    <ClCompile Include="cuddZddCount.c" />
-    <ClCompile Include="cuddZddFuncs.c" />
-    <ClCompile Include="cuddZddGroup.c" />
-    <ClCompile Include="cuddZddIsop.c" />
-    <ClCompile Include="cuddZddLin.c" />
-    <ClCompile Include="cuddZddMisc.c" />
-    <ClCompile Include="cuddZddPort.c" />
-    <ClCompile Include="cuddZddReord.c" />
-    <ClCompile Include="cuddZddSetop.c" />
-    <ClCompile Include="cuddZddSymm.c" />
-    <ClCompile Include="cuddZddUtil.c" />
-    <ClCompile Include="datalimit.c" />
-    <ClCompile Include="dddmpBinary.c" />
-    <ClCompile Include="dddmpConvert.c" />
-    <ClCompile Include="dddmpDbg.c" />
-    <ClCompile Include="dddmpLoad.c" />
-    <ClCompile Include="dddmpLoadCnf.c" />
-    <ClCompile Include="dddmpNodeAdd.c" />
-    <ClCompile Include="dddmpNodeBdd.c" />
-    <ClCompile Include="dddmpNodeCnf.c" />
-    <ClCompile Include="dddmpStoreAdd.c" />
-    <ClCompile Include="dddmpStoreBdd.c" />
-    <ClCompile Include="dddmpStoreCnf.c" />
-    <ClCompile Include="dddmpStoreMisc.c" />
-    <ClCompile Include="dddmpUtil.c" />
-    <ClCompile Include="epd.c" />
-    <ClCompile Include="mtrBasic.c" />
-    <ClCompile Include="mtrGroup.c" />
-    <ClCompile Include="pathsearch.c" />
-    <ClCompile Include="pipefork.c" />
-    <ClCompile Include="prtime.c" />
-    <ClCompile Include="safe_mem.c" />
-    <ClCompile Include="st.c" />
-    <ClCompile Include="strsav.c" />
-    <ClCompile Include="texpand.c" />
-    <ClCompile Include="ucbqsort.c" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\cstringstream.h" />
+    <ClInclude Include="include\cudd.h" />
+    <ClInclude Include="include\cuddInt.h" />
+    <ClInclude Include="include\cuddObj.hh" />
+    <ClInclude Include="include\cuddSymbolicset.hh" />
+    <ClInclude Include="include\datasizes32.h" />
+    <ClInclude Include="include\datasizes64.h" />
+    <ClInclude Include="include\dddmp.h" />
+    <ClInclude Include="include\dddmpInt.h" />
+    <ClInclude Include="include\epd.h" />
+    <ClInclude Include="include\epdInt.h" />
+    <ClInclude Include="include\mtr.h" />
+    <ClInclude Include="include\mtrInt.h" />
+    <ClInclude Include="include\st.h" />
+    <ClInclude Include="include\util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h" />
-    <ClInclude Include="cstringstream.h" />
-    <ClInclude Include="cudd.h" />
-    <ClInclude Include="cuddInt.h" />
-    <ClInclude Include="cuddObj.hh" />
-    <ClInclude Include="cuddSymbolicset.hh" />
-    <ClInclude Include="datasizes32.h" />
-    <ClInclude Include="datasizes64.h" />
-    <ClInclude Include="dddmp.h" />
-    <ClInclude Include="dddmpInt.h" />
-    <ClInclude Include="epd.h" />
-    <ClInclude Include="epdInt.h" />
-    <ClInclude Include="mtr.h" />
-    <ClInclude Include="mtrInt.h" />
-    <ClInclude Include="st.h" />
-    <ClInclude Include="util.h" />
+    <ClCompile Include="src\cpu_stats.c" />
+    <ClCompile Include="src\cpu_time.c" />
+    <ClCompile Include="src\cstringstream.c" />
+    <ClCompile Include="src\cuddAddAbs.c" />
+    <ClCompile Include="src\cuddAddApply.c" />
+    <ClCompile Include="src\cuddAddFind.c" />
+    <ClCompile Include="src\cuddAddInv.c" />
+    <ClCompile Include="src\cuddAddIte.c" />
+    <ClCompile Include="src\cuddAddNeg.c" />
+    <ClCompile Include="src\cuddAddWalsh.c" />
+    <ClCompile Include="src\cuddAndAbs.c" />
+    <ClCompile Include="src\cuddAnneal.c" />
+    <ClCompile Include="src\cuddApa.c" />
+    <ClCompile Include="src\cuddAPI.c" />
+    <ClCompile Include="src\cuddApprox.c" />
+    <ClCompile Include="src\cuddBddAbs.c" />
+    <ClCompile Include="src\cuddBddCorr.c" />
+    <ClCompile Include="src\cuddBddIte.c" />
+    <ClCompile Include="src\cuddBridge.c" />
+    <ClCompile Include="src\cuddCache.c" />
+    <ClCompile Include="src\cuddCheck.c" />
+    <ClCompile Include="src\cuddClip.c" />
+    <ClCompile Include="src\cuddCof.c" />
+    <ClCompile Include="src\cuddCompose.c" />
+    <ClCompile Include="src\cuddDecomp.c" />
+    <ClCompile Include="src\cuddEssent.c" />
+    <ClCompile Include="src\cuddExact.c" />
+    <ClCompile Include="src\cuddExport.c" />
+    <ClCompile Include="src\cuddGenCof.c" />
+    <ClCompile Include="src\cuddGenetic.c" />
+    <ClCompile Include="src\cuddGroup.c" />
+    <ClCompile Include="src\cuddHarwell.c" />
+    <ClCompile Include="src\cuddInit.c" />
+    <ClCompile Include="src\cuddInteract.c" />
+    <ClCompile Include="src\cuddLCache.c" />
+    <ClCompile Include="src\cuddLevelQ.c" />
+    <ClCompile Include="src\cuddLinear.c" />
+    <ClCompile Include="src\cuddLiteral.c" />
+    <ClCompile Include="src\cuddMatMult.c" />
+    <ClCompile Include="src\cuddObj.cc" />
+    <ClCompile Include="src\cuddPriority.c" />
+    <ClCompile Include="src\cuddRead.c" />
+    <ClCompile Include="src\cuddRef.c" />
+    <ClCompile Include="src\cuddReorder.c" />
+    <ClCompile Include="src\cuddSat.c" />
+    <ClCompile Include="src\cuddSign.c" />
+    <ClCompile Include="src\cuddSolve.c" />
+    <ClCompile Include="src\cuddSplit.c" />
+    <ClCompile Include="src\cuddSubsetHB.c" />
+    <ClCompile Include="src\cuddSubsetSP.c" />
+    <ClCompile Include="src\cuddSymbolicSet.cc" />
+    <ClCompile Include="src\cuddSymmetry.c" />
+    <ClCompile Include="src\cuddTable.c" />
+    <ClCompile Include="src\cuddUtil.c" />
+    <ClCompile Include="src\cuddWindow.c" />
+    <ClCompile Include="src\cuddZddCount.c" />
+    <ClCompile Include="src\cuddZddFuncs.c" />
+    <ClCompile Include="src\cuddZddGroup.c" />
+    <ClCompile Include="src\cuddZddIsop.c" />
+    <ClCompile Include="src\cuddZddLin.c" />
+    <ClCompile Include="src\cuddZddMisc.c" />
+    <ClCompile Include="src\cuddZddPort.c" />
+    <ClCompile Include="src\cuddZddReord.c" />
+    <ClCompile Include="src\cuddZddSetop.c" />
+    <ClCompile Include="src\cuddZddSymm.c" />
+    <ClCompile Include="src\cuddZddUtil.c" />
+    <ClCompile Include="src\datalimit.c" />
+    <ClCompile Include="src\dddmpBinary.c" />
+    <ClCompile Include="src\dddmpConvert.c" />
+    <ClCompile Include="src\dddmpDbg.c" />
+    <ClCompile Include="src\dddmpLoad.c" />
+    <ClCompile Include="src\dddmpLoadCnf.c" />
+    <ClCompile Include="src\dddmpNodeAdd.c" />
+    <ClCompile Include="src\dddmpNodeBdd.c" />
+    <ClCompile Include="src\dddmpNodeCnf.c" />
+    <ClCompile Include="src\dddmpStoreAdd.c" />
+    <ClCompile Include="src\dddmpStoreBdd.c" />
+    <ClCompile Include="src\dddmpStoreCnf.c" />
+    <ClCompile Include="src\dddmpStoreMisc.c" />
+    <ClCompile Include="src\dddmpUtil.c" />
+    <ClCompile Include="src\epd.c" />
+    <ClCompile Include="src\mtrBasic.c" />
+    <ClCompile Include="src\mtrGroup.c" />
+    <ClCompile Include="src\pathsearch.c" />
+    <ClCompile Include="src\pipefork.c" />
+    <ClCompile Include="src\prtime.c" />
+    <ClCompile Include="src\safe_mem.c" />
+    <ClCompile Include="src\st.c" />
+    <ClCompile Include="src\strsav.c" />
+    <ClCompile Include="src\texpand.c" />
+    <ClCompile Include="src\ucbqsort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -286,6 +286,7 @@
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -294,7 +295,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck64.exe</Command>
+      <Command>.\src\sizecheck64.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-MSMPI|x64'">
@@ -307,6 +308,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -315,7 +317,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck64.exe</Command>
+      <Command>.\src\sizecheck64.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -326,13 +328,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck32.exe</Command>
+      <Command>.\src\sizecheck32.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-MSMPI|Win32'">
@@ -343,13 +346,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck32.exe</Command>
+      <Command>.\src\sizecheck32.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -360,13 +364,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck64.exe</Command>
+      <Command>.\src\sizecheck64.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-MSMPI|x64'">
@@ -377,13 +382,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck64.exe</Command>
+      <Command>.\src\sizecheck64.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -396,6 +402,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -404,7 +411,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck32.exe</Command>
+      <Command>.\src\sizecheck32.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-MSMPI|Win32'">
@@ -417,6 +424,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -425,7 +433,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>sizecheck32.exe</Command>
+      <Command>.\src\sizecheck32.exe</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

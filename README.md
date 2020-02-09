@@ -9,9 +9,12 @@ For Linux and MAcOS, simply clone this repo and run the command:
 $ make
 
 For Windows, use the provided MS Visual Studio Project file.
+Make sure to adjust the build configuration based on your needs.
+We include build configurations for x64 and x32 systems.
 
+This will generate a static-link library in the folder (./lib/).
+Link against this library and use the include folder (./include/).
 
-## Test the installation
+## Examples
 
-For C-based version of the library, many examples are provided by [David Kebo](http://davidkebo.com/cudd). 
-Use the following C++ program to test the C++ interface.
+Many examples are provided by [David Kebo](http://davidkebo.com/cudd). 
